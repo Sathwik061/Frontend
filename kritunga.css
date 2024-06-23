@@ -1,0 +1,120 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#background{
+    background-image:url("https://jagaviskritunga.in/wp-content/uploads/2022/07/kritunga_home_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40rem;
+
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    width:100%;
+}
+#jagavi{
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    gap:1rem;
+    
+}
+#welcome{
+    
+    
+    float:inline-end;
+    color:#fff;
+    padding:8rem 10rem;
+    
+}
+#welcome p{
+    color:rgb(255,203,8);
+    font-weight: bold;
+    font-size: 5rem;
+}
+.background2{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ourstory-image{
+    padding: 100px;
+    
+}
+#content{
+    padding: 10px;
+}
+#content p{
+    color:#fff;
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+#content h3{
+    color:rgb(255,203,8);
+    text-align: center;
+}
+#New-age-Dining1{
+    color:rgb(255,203,8);
+    text-align: center;
+}
+#New-age-Dining{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+ }
+    #New-age-Dining h3{
+color:rgb(255,203,8);
+    }
+    #New-age-Dining p{
+        text-align: center;
+        padding: 4px 60px;
+    }
+
+    #Our-Specialities{
+        text-align: center;
+        padding: 20px;
+    }
+.our h3{
+    color:rgb(255,203,8);
+
+}
+#our {
+    padding: 20px;
+    display: flex;
+    /* float: left; */
+} 
+#ourmenu h3{
+
+    color:rgb(255,203,8);
+}
+#ourmenu button{
+    color:rgb(255,203,8);
+    background-color: #000;
+
+}
+#ourmenu {
+    text-align: center;
+    width:50%;
+    float:left;
+    
+}
+#ourmenu p{
+    color: #fff;
+}
